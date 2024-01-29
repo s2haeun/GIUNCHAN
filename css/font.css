@@ -1,0 +1,48 @@
+/* 나눔스퀘어 네오 */
+@font-face {
+    font-family: 'NanumSquareNeo-Variable', sans-serif;
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 넥슨 Lv.2 고딕 */
+@font-face {
+    font-family: 'NEXON Lv2 Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Gmarket Sans */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 나눔 펜 */
+@font-face {
+    font-family: "NanumPen";
+    src: url(../font/NanumPen.otf);
+}
+/* 나눔스퀘어네오bold */
+@font-face {
+    font-family: 'NanumSquareNeo-aLt';
+    src: url(../font/NanumSquareNeo-aLt.ttf);
+}
+@font-face {
+    font-family: 'NanumSquareNeo-bRg';
+    src: url(../font/NanumSquareNeo-bRg.ttf);
+}
+@font-face {
+    font-family: 'NanumSquareNeo-cBd';
+    src: url(../font/NanumSquareNeo-cBd.ttf);
+}
+@font-face {
+    font-family: 'NanumSquareNeo-dEb';
+    src: url(../font/NanumSquareNeo-dEb.ttf);
+}
+@font-face {
+    font-family: 'NanumSquareNeo-eHv';
+    src: url(../font/NanumSquareNeo-eHv.ttf);
+}
+

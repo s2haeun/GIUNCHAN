@@ -1,0 +1,619 @@
+/* reset */
+
+*{margin: 0;padding: 0;word-break:keep-all;}
+b,strong,h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+i,em,address{
+    font-style: inherit;
+}
+a{text-decoration: none;color: inherit;}
+img{max-width: 100%;}
+hr{display: none;}
+ul,ol{list-style: none;}
+table{border-collapse: collapse;}
+img{max-width: 100%;line-height: 0;}
+
+
+/* common */
+html{
+    font-family: 'NanumSquareNeo-cBd', 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+}
+.container{
+    max-width: 1700px;
+    width: 98%;
+    margin: 0 auto;
+}
+.container1520 {
+    max-width: 1520px;
+}
+.page .container{padding: 140px 0;}
+
+/* header */
+/* header.on */
+header.on {
+    background: rgba(0, 0, 0, 0.6);
+}
+header.on .header_in_wrap{
+    height: 80px;
+}
+header.on .gnb,header.on .header_link{
+    color: #fff;
+}
+header.on .logo img{
+    filter: invert(100%) sepia(100%) saturate(0) hue-rotate(200deg) brightness(200%) contrast(201%);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all .5s ease-in-out;
+}
+.header_in_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    height: 120px;
+}
+.header_in_wrap .gnb{
+    display: flex;
+    color: #0b318f;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.header_in_wrap .gnb a{
+    padding: 0 10px;
+}
+.header_in_wrap .header_link{
+    display: flex;
+    font-family: 'NEXON Lv2 Gothic';
+    font-weight: bold;
+    color: #000;
+}
+.link_img{margin-right: 1rem;}
+.header_link p{
+    font-size: 1.5rem;
+}
+.header_link span{
+    font-size: 2.6rem;
+}
+
+/* main */
+/* header_bg */
+.header_bg{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+/* main_banner */
+
+.main_banner{
+    width: 100%;
+    height: 740px;
+    background: #d6f1ee url(../img/main_img_01.jpg) no-repeat center center / cover;
+    color: #fff;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 120px; */
+}
+.main_banner .tit_t{
+    width: 533px;
+    height: 217px;
+    margin: 0 auto;
+}
+.main_banner .tit_b{
+    font-family: 'NanumSquareNeo-bRg';
+    font-size: 4.1rem;
+    line-height: 5.8rem;
+    /* padding-top: 105px; */
+    width: 90%;
+    text-align: center;
+    /* position: relative; */
+}
+.main_banner .tit_b span{
+    font-family: 'NanumSquareNeo-dEb';
+}
+.main_banner .tit_b::before{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 5px;
+    margin: 5rem auto;
+    background: #e1e6f3;
+}
+/* con1 */
+.con1:before {
+    content: 'GIUNCHAN PAIN CLINIC';
+    font-family: 'GmarketSansMedium';
+    white-space: nowrap;
+    font-size: 29rem;
+    color: #eef0f5;
+    display: block;
+    height: 24rem;
+    line-height: 24rem;
+    position: absolute;
+    left: 8%;
+    bottom: 140px;
+    z-index: -10;
+}
+.con1{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.con1 h3{
+    font-family: 'NanumSquareNeo-dEb';
+    font-size: 3.5rem;
+    margin-bottom: 7rem;
+}
+.con1 h3 span{
+    display: block;
+    color: #0b318f;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 2rem;
+}
+.con1 h3 span::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100px;
+    margin: 0 auto;
+    background: #0b318f;
+    margin-bottom: 3rem;
+}
+.greetings_msg{
+    font-size: 3.3rem;
+    line-height: 4.5rem;
+}
+.greetings_msg_wrap .greetings_name{
+    text-align: right;
+    margin-top: 195px;
+    font-size: 2.9rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.greetings_msg_wrap .greetings_name b{
+    font-weight: bold;
+}
+.greetings_msg_wrap .greetings_name span{
+    font-size: 6.6rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-left: 1.5rem;
+}
+/* con2 */
+.con2{
+   background: #f5f8ff url("../img/page4_bg.png") no-repeat right bottom -120px;
+   width: 100%;
+}
+
+.con2 h3{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 7rem;
+    text-align: center;
+}
+.con2 h3 span{
+    display: block;
+    line-height: 8.0rem;
+    font-family: "NanumPen";
+    font-size: 8.0rem;
+    text-align: center;
+    color: #0b318f;
+    letter-spacing: -3px;
+    margin-bottom: 4rem;
+}
+.con2 .clinic_wrap{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.con2 .clinic_wrap li{
+    width: calc(100% / 3);
+    /* line-height: 0; */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 100px 0;
+}
+.con2 .clinic_wrap .img_wrap{
+    line-height: 0;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.con2 .clinic_wrap .tit_wrap{
+    z-index: 2;
+    box-sizing: border-box;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition-duration: 0.5s;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0 40px;
+}
+.clinic_wrap .tit_wrap h5{
+    font-family: 'NanumSquareNeo-dEb';
+    line-height: 5.0rem;
+    font-size: 3.7rem;
+    letter-spacing: -0.5px;
+    overflow: hidden;
+    white-space: normal;
+    text-align: center;
+    word-wrap: break-word;
+    color: #0b318f;
+    font-weight: 600;
+}
+.clinic_wrap .tit_wrap .con_wrap{
+    padding-top: 1.5rem;
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.con_wrap .con span{
+    position: relative;
+    padding: 0 10px 0 12px;
+}
+.con_wrap .con span::before{
+    content: '';
+    width: 3px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    background: #000;
+}
+.con_wrap .con span:first-of-type:before{
+    content: none;
+}
+/* con3 */
+.con3{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.con3::before{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 280px;
+    background: #5d6a8c;
+}
+.doctor_wrap{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.detail_wrap_tit{
+    color: #0b318f;
+    font-family: 'GmarketSansMedium';
+    text-align: left;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+.name_wrap{
+    margin-top: 15px;
+    font-size: 2.9rem;
+    /* height: 4rem; */
+    line-height: 4.0rem;
+    font-weight: 600;
+    font-family: 'NanumSquareNeo-cBd';
+}
+.name_wrap .name{
+    font-size: 5.0rem;
+    /* height: 5.2rem; */
+    line-height: 5.2rem;
+    margin-right: 20px;
+    letter-spacing: -0.5px;
+    font-family: 'NanumSquareNeo-dEb';
+
+}
+.history_wrap{
+    margin-top: 60px;
+    font-family: 'NanumSquareNeo-cBd';
+}
+.history_list{
+    width: 100%;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 50px;
+    list-style-type: disc;
+}
+.history_list>li{
+    margin-top: 8px;
+}
+.history_list>li:first-of-type{
+    margin-top: 0px;
+}
+.con3 .img_wrap{
+    width: 44%;
+    max-width: 650px;
+    height: 670px;
+    border-radius: 10px;
+    background: #d9dfee;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    transition-duration: 0.5s;
+    line-height: 0;
+}
+/* con4 */
+.con4::before {
+    content: 'GIUNCHAN PAIN CLINIC';
+    font-family: 'GmarketSansMedium';
+    white-space: nowrap;
+    font-size: 29rem;
+    color: #f9fbfe;
+    display: block;
+    height: 24rem;
+    line-height: 24rem;
+    position: absolute;
+    left: 8%;
+    top: 130px;
+    z-index: 1;
+}
+.con4{
+    background: #f1f5fe;
+    position: relative;
+    overflow: hidden;
+}
+.con4 .container{
+    position: relative;
+    z-index: 12;
+    text-align: center;
+}
+.con4 h3{
+    font-size: 5.0rem;
+    line-height: 5.4rem;
+    font-family: 'NanumSquareNeo-dEb';
+    text-align: center;
+    margin-top: 20px;
+}
+.con4 h3 span{
+    display: block;
+    color: #0b318f;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #0b318f;
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 2rem;
+}
+.con4 h3 span::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100px;
+    margin: 0 auto;
+    background: #0b318f;
+    margin-bottom: 3rem;
+}
+h3 .con4_msg{
+    margin-top: 40px;
+    font-size: 3.3rem;
+    line-height: 4.5rem;
+    font-family: 'NanumSquareNeo-cBd';
+    text-align: center;
+    font-weight: 400;
+}
+.nonsurgical_wrap>ul{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.nonsurgical_wrap li{
+    background: rgba(9, 31, 254, 0.2);
+    width: 28%;
+    aspect-ratio: auto 1 / 1;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 -1.2%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.1rem;
+    line-height: 5.0rem;
+    font-family: 'NanumSquareNeo-dEb';
+}
+.nonsurgical_wrap li.item1{
+    background: rgba(9, 31, 254, 0.2);
+}
+.nonsurgical_wrap li.item2{
+    background: rgba(20, 48, 120, 0.2);
+}
+.nonsurgical_wrap li.item3{
+    background: rgba(47, 75, 50, 0.2);
+}
+.nonsurgical_wrap li.item4{
+    background: rgba(113, 116, 22, 0.2);
+}
+.nonsurgical_wrap li.item5{
+    background: rgba(241, 176, 9, 0.2);
+}
+/* con5 */
+
+.procedure_type_wrap{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    margin-top: 140px;
+    /* font-family: 'NanumSquareNeo-dEb'; */
+}
+.procedure_type_wrap:first-of-type{
+    margin-top: 0px;
+}
+.procedure_tit{
+    font-size: 5.0rem;
+    line-height: 6.0rem;
+    font-family: 'NanumSquareNeo-dEb';
+    padding-left: 86px;
+    box-sizing: border-box;
+    position: relative;
+}
+.procedure_tit::before{
+    content: '';
+    width: 64px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../img/procedure_tit_bg.png) no-repeat center center / contain;
+}
+.procedure_type{
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-top: 4px solid #0b318f;
+    padding-top: 40px;
+}
+.procedure_type .img_wrap{
+    width: 36%;
+    max-width: 600px;
+    line-height: 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.procedure_type .txt_wrap{
+    width: 62%;
+    max-width: 1050px;
+}
+.procedure_type .tit{
+    font-size: 5.0rem;
+    line-height: 6.3rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.procedure_type .tit span{
+    color: #0b318f;
+    font-family: 'NanumSquareNeo-dEb';
+}
+.procedure_type .p_txt{
+    font-size: 3.3rem;
+    line-height: 4.8rem;
+    letter-spacing: -1px;
+    margin-top: 80px;
+}
+/* con6 */
+.con6 h3{
+    font-size: 5.0rem;
+    line-height: 5.4rem;
+    font-family: 'NanumSquareNeo-dEb';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.con6 h3 span{
+    display: block;
+    color: #0b318f;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 2rem;
+
+}
+.con6 h3 span::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100px;
+    margin: 0 auto;
+    background: #0b318f;
+    margin-bottom: 3rem;
+}
+/* con7 */
+.con7{
+    background: #003254;
+    color: #fff;
+}
+.con7 h3{
+    font-size: 5.0rem;
+    line-height: 5.4rem;
+    font-family: 'NanumSquareNeo-dEb';
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+.con7 h3 span{
+    display: block;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+    margin-bottom: 2rem;
+}
+.con7 h3 span::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100px;
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 3rem;
+}
+.location_wrap{
+    display: flex;
+}
+.location_wrap>div{
+    flex: 1;
+    width: 50%;
+}
+.location_map_wrap{
+    width: 100%;
+    aspect-ratio: 4/3;
+    background: #5d6a8c;
+}
+.location_map_wrap>div{width: 100%;}
