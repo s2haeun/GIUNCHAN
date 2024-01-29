@@ -605,15 +605,24 @@ h3 .con4_msg{
     margin-bottom: 3rem;
 }
 .location_wrap{
+    width: 100%;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: visible;
 }
 .location_wrap>div{
     flex: 1;
-    width: 50%;
+    width: 46%;
 }
 .location_map_wrap{
     width: 100%;
     /* aspect-ratio: 4/3; */
     background: #5d6a8c;
 }
-.location_map_wrap>div{width: 100%;}
+.con7 .content{
+    display: flex;
+    font-size: 3.4rem;
+}
