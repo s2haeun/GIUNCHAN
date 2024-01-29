@@ -613,7 +613,7 @@ h3 .con4_msg{
 }
 .location_map_wrap{
     width: 100%;
-    aspect-ratio: 4/3;
+    /* aspect-ratio: 4/3; */
     background: #5d6a8c;
 }
 .location_map_wrap>div{width: 100%;}
